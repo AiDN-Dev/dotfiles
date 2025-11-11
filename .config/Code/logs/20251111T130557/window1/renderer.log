@@ -1,0 +1,5 @@
+2025-11-11 13:05:58.377 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-11-11 13:05:58.532 [info] Started local extension host with pid 5498.
+2025-11-11 13:05:59.329 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-11-11 13:05:59.405 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-11 13:06:01.150 [info] [perf] Render performance baseline is 30ms

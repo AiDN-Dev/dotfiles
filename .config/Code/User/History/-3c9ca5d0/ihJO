@@ -1,0 +1,19 @@
+# Caches
+
+**/*cache*
+**/*Cache*
+**/cache/
+**/Cache/
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# KDE
+/kdenlive/
+/KDE/
+kwin.history
+ksmserver-logout-greeter.log

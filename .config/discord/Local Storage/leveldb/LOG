@@ -1,0 +1,20 @@
+2025/11/11-19:05:25.409 3e5 Reusing MANIFEST /home/aidn/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/11/11-19:05:25.415 3e5 Recovering log #33
+2025/11/11-19:05:25.415 3e5 Reusing old log /home/aidn/.config/discord/Local Storage/leveldb/000033.log 
+2025/11/11-19:12:03.831 3e6 Level-0 table #37: started
+2025/11/11-19:12:03.872 3e6 Level-0 table #37: 2680969 bytes OK
+2025/11/11-19:12:03.878 3e6 Delete type=0 #33
+2025/11/11-19:12:03.882 3e6 Compacting 4@0 + 2@1 files
+2025/11/11-19:12:03.928 3e6 Generated table #38@0: 12 keys, 2656085 bytes
+2025/11/11-19:12:03.932 3e6 Generated table #39@0: 24 keys, 33393 bytes
+2025/11/11-19:12:03.932 3e6 Compacted 4@0 + 2@1 files => 2689478 bytes
+2025/11/11-19:12:03.938 3e6 compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/11/11-19:12:03.938 3e6 Delete type=2 #27
+2025/11/11-19:12:03.938 3e6 Delete type=2 #28
+2025/11/11-19:12:03.938 3e6 Delete type=2 #30
+2025/11/11-19:12:03.938 3e6 Delete type=2 #32
+2025/11/11-19:12:03.938 3e6 Delete type=2 #34
+2025/11/11-19:12:03.938 3e6 Delete type=2 #37
+2025/11/11-19:20:36.479 3e6 Level-0 table #41: started
+2025/11/11-19:20:36.490 3e6 Level-0 table #41: 31771 bytes OK
+2025/11/11-19:20:36.496 3e6 Delete type=0 #36
