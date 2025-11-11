@@ -305,12 +305,22 @@
     },
     "wallpaper": {
         "defaultWallpaper": "/etc/xdg/quickshell/noctalia-shell/Assets/Wallpaper/noctalia.png",
-        "directory": "/home/aidn/Pictures/Wallpapers",
+        "directory": "/home/aidn/Pictures/wallpaper",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "fillColor": "#000000",
         "fillMode": "crop",
         "monitors": [
+            {
+                "directory": "/home/aidn/Pictures/wallpaper",
+                "name": "HDMI-A-1",
+                "wallpaper": "/home/aidn/Pictures/wallpaper/wall2.png"
+            },
+            {
+                "directory": "/home/aidn/Pictures/wallpaper",
+                "name": "DP-1",
+                "wallpaper": "/home/aidn/Pictures/wallpaper/wall2.png"
+            }
         ],
         "overviewEnabled": false,
         "panelPosition": "follow_bar",
