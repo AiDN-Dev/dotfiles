@@ -55,6 +55,7 @@
 .config/ktimezonedrc
 .config/kwinoutputconfig.json
 .config/kwinrc
+.config/kactivitymanagerd-statsrc
 .config/plasma-localerc
 .confnig/plasma-org.kde.plasma.desktop-appletsrc
 .config/plasma-welcomerc
