@@ -4,6 +4,7 @@
 # whitelist specific directories
 !/.config/hypr/
 !/.config/noctalia/
+!/.config/kitty/
 
 # Whitelist specific files
 !/.config/starship.toml
