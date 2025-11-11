@@ -22,3 +22,16 @@
 .config/Electron/
 .config/Mozilla/
 .config/session/
+.config/godot/
+.config/dconf/
+.config/gh/
+.config/go/telemetry/local/
+.config/gtk-3.0/
+.config/gtk-4.0/
+.config/kate/externaltools
+.config/kdedefaults/
+.config/kitty
+.config/libaccounts-glib
+.config/pulse
+.config/systemd/user
+.config/xsettingsd
