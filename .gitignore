@@ -1,66 +1,9 @@
-# General caches and temporary files
-**/*cache*
-**/*Cache*
-**/cache/
-**/Cache/
-**/*log*
-**/*Log*
-**/logs/
-**/Logs/
-**/tmp/
-**/temp/
+# Ignore everyything inside .config by default 
+.config/*
 
-# KDE Specific files that are often generated or contain stats
-.config/baloofileinformationrc
-.config/baloofilerc
-.config/kactivitymanagerdrc
-.config/kactivitymanagerdr-statsrc
+# whitelist specific directories
+!/.config/hypr/
+!/.config/noctalia/
 
-# Application specific
-.config/Code/
-.config/discord/
-.config/Electron/
-.config/Mozilla/
-.config/session/
-.config/godot/
-.config/dconf/
-.config/gh/
-.config/go/telemetry/local/
-.config/gtk-3.0/
-.config/gtk-4.0/
-.config/kate/externaltools
-.config/kdedefaults/
-.config/kitty
-.config/libaccounts-glib
-.config/pulse
-.config/systemd/user
-.config/xsettingsd
-
-# Specific files 
-.config/Trolltech.config
-.config/arkrc
-.config/bluedevilglobalrc
-.config/dolphinrc
-.config/gtkrc
-.config/gtkrc-2.0
-.confnig/kate-externaltoolspluginrc
-.config/katerc
-.config/katevirc
-.config/kconf_updaterc
-.config/kded5rc
-.config/kdeglobals
-.config/kglobalshortcutsrc
-.config/kiorc
-.config/ksmserverrc
-.config/ktimezonedrc
-.config/kwinoutputconfig.json
-.config/kwinrc
-.config/kactivitymanagerd-statsrc
-.config/plasma-localerc
-.confnig/plasma-org.kde.plasma.desktop-appletsrc
-.config/plasma-welcomerc
-.config/plasmashellrc
-.config/powermanagementprofilesrc
-.conifg/trashrc
-.config/user-dirs.dirs
-.config/user-dirs.locale
+# Whitelist specific files
+!/.config/starship.toml
