@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Godot Engine 4.5.1
-Exec=/home/aidn/Godot/4.5.1/Godot_v4.5.1-stable_linux.x86_64 %U
-Icon=/home/aidn/Godot/4.5.1/godot-icon.png
-Terminal=False
-Categories=Development;Game;IDE;
-Keywords=godot;GODOT;GoDot;Godot;

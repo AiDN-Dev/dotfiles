@@ -1,19 +1,24 @@
-# Caches
-
+# General caches and temporary files
 **/*cache*
 **/*Cache*
 **/cache/
 **/Cache/
+**/*log*
+**/*Log*
+**/logs/
+**/Logs/
+**/tmp/
+**/temp/
 
-# Node.js
-node_modules/
+# KDE Specific files that are often generated or contain stats
+.config/baloofileinformationrc
+.config/baloofilerc
+.config/kactivitymanagerdrc
+.config/kactivitymanagerdr-statsrc
 
-# Python
-__pycache__/
-*.pyc
-
-# KDE
-/kdenlive/
-/KDE/
-kwin.history
-ksmserver-logout-greeter.log
+# Application specific
+.config/Code/
+.config/discord/
+.config/Electron/
+.config/Mozilla/
+.config/session/
