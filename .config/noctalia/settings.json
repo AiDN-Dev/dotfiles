@@ -91,12 +91,8 @@
                     "id": "Volume"
                 },
                 {
-                    "displayMode": "onhover",
-                    "id": "Brightness"
-                },
-                {
                     "customFont": "",
-                    "formatHorizontal": "HH:mm ddd, MMM dd",
+                    "formatHorizontal": "HH:mm",
                     "formatVertical": "HH mm - dd MM",
                     "id": "Clock",
                     "useCustomFont": false,
