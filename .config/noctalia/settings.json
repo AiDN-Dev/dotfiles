@@ -12,7 +12,7 @@
         "useApp2Unit": false
     },
     "audio": {
-        "cavaFrameRate": 30,
+        "cavaFrameRate": 144,
         "mprisBlacklist": [
         ],
         "preferredPlayer": "",
@@ -115,7 +115,7 @@
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "matugenSchemeType": "scheme-fruit-salad",
-        "predefinedScheme": "Nord",
+        "predefinedScheme": "Tokyo Night",
         "schedulingMode": "off",
         "useWallpaperColors": false
     },
@@ -268,7 +268,7 @@
     "setupCompleted": true,
     "templates": {
         "alacritty": false,
-        "code": false,
+        "code": true,
         "discord": false,
         "discord_armcord": false,
         "discord_dorion": false,
@@ -280,11 +280,11 @@
         "foot": false,
         "fuzzel": false,
         "ghostty": false,
-        "gtk": false,
-        "kcolorscheme": false,
+        "gtk": true,
+        "kcolorscheme": true,
         "kitty": true,
         "pywalfox": false,
-        "qt": false,
+        "qt": true,
         "spicetify": false,
         "vicinae": false,
         "walker": false,
