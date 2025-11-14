@@ -1,122 +1,106 @@
-
-
-//   _____ _____ _____ _____ _____ _____ _____ _____ _____ 
-//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
-//  |   __|     |__   | | | |   __|   __| | | |   --|     |
-//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|  HYPRLAND
-//
-//  by Bina
-
-
+// Inspired by Catnap
 {
-    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
-    "logo": {
-    	"source": "fa",
-    	"type": "kitty",
-    	"height": 18,
-    	"padding": {
-    		"top": 2
-    	}
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    // "type": "none",
+    "source": "~/.config/omarchy/branding/logo.txt",
+    "color": {
+      "1": "green"
     },
-    "display": {
-        "separator": " "
+    "type": "file",
+    "height": 1,
+    "padding": {
+      // "top": 1,
+      // "right": 0,
+      // "left": 0
+    }
+  },
+  "display": {
+    "separator": " "
+  },
+  "modules": [
+    {
+      "key": "╭───────────╮",
+      "type": "custom"
     },
-    "modules": [
-	{
-            "type": "custom",
-            "format": "\u001b[90m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[37m"
-        },
-    "break",
-	{
-            "type": "title",
-            "keyWidth": 10
-        },
-        "break",
-        {
-            "type": "os",
-            "key": " ",
-            "keyColor": "34"  // = color4
-        },
-        {
-            "type": "kernel",
-            "key": " ",
-            "keyColor": "34"
-        },
-        {
-            "type": "packages",
-            "format": "{} (pacman)",
-            "key": " ",
-            "keyColor": "34"  
-        },
-        {
-            "type": "shell",
-            "key": " ",
-            "keyColor": "34" 
-        },
-        {
-            "type": "terminal",
-            "key": " ",
-            "keyColor": "34" 
-        },
-        {
-            "type": "wm",
-            "key": " ",
-            "keyColor": "34" 
-        },
-        {
-            "type": "display",
-            "key": " ",
-            "keyColor": "34"
-        },
-        {
-            "type": "cpu",
-            "format": "{1}",
-            "key": " ",
-            "keyColor": "34"
-        },
-        {
-            "type": "gpu",
-            "format": "{2}",
-            "key": " ",
-            "keyColor": "34"
-        },
-        {
-            "type": "gpu",
-            "format": "{3}",
-            "key": " ",
-            "keyColor": "34"
-        },
-        {
-             "type": "memory",
-            "key": "﬙ ",
-            "keyColor": "34"
-        },
-        {
-             "type": "swap",
-            "key": "󰾴 ",
-            "keyColor": "34"
-        },
-        {
-            "type": "disk",
-            "key": " ",
-            "keyColor": "34"
-        },
-        {
-            "type": "uptime",
-            "key": " ",
-            "keyColor": "34" 
-        },
-        {
-            "type": "command",
-            "key": "󱦟 ",
-            "keyColor": "34",
-            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
-        },
-        "break",
-        {
-            "type": "custom",
-            "format": "\u001b[90m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[37m"
-        },
-        "break"
-    ]
+    {
+      "key": "│ {#31} user    {#keys}│",
+      "type": "title",
+      "format": "{user-name}"
+    },
+    // {
+    //   "key": "│ {#32}󰇅 hname   {#keys}│",
+    //   "type": "title",
+    //   "format": "{host-name}"
+    // },
+    {
+      "key": "│ {#33}󰅐 uptime  {#keys}│",
+      "type": "uptime"
+    },
+    {
+      "key": "│ {#34}{icon} distro  {#keys}│",
+      "type": "os"
+    },
+    {
+      "key": "│ {#35} kernel  {#keys}│",
+      "type": "kernel"
+    },
+    {
+      "key": "│ {#36} wm      {#keys}│",
+      "type": "wm"
+    },
+    {
+      "key": "│ {#36}󰇄 desktop {#keys}│",
+      "type": "de"
+    },
+    {
+      "key": "│ {#31} term    {#keys}│",
+      "type": "terminal"
+    },
+    {
+      "key": "│ {#32} shell   {#keys}│",
+      "type": "shell"
+    },
+    {
+      "type": "packages",
+      "key": "│ {#33}󰏖 apps    {#keys}│"
+    },
+    {
+      "key": "│ {#33}󰍛 cpu     {#keys}│",
+      "type": "cpu",
+      "showPeCoreCount": true
+    },
+    {
+      "key": "│ {#34}󰉉 disk    {#keys}│",
+      "type": "disk",
+      "folders": "/"
+    },
+    {
+      "key": "│ {#36} memory  {#keys}│",
+      "type": "memory"
+    },
+    {
+      "type": "terminalfont",
+      "key": "│ {#35} font    {#keys}│",
+      "keyColor": "green"
+    },
+    // {
+    //   "type": "command",
+    //   "key": "│ {#33}󱦟 OS Age  {#keys}│ ",
+    //   "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+    // },
+    {
+      "key": "├───────────┤",
+      "type": "custom"
+    },
+    {
+      "key": "│ {#39} colors  {#keys}│",
+      "type": "colors",
+      "symbol": "circle"
+    },
+    {
+      "key": "╰───────────╯",
+      "type": "custom"
+    }
+  ]
 }
