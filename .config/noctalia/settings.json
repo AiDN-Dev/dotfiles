@@ -62,10 +62,10 @@
                     "hideMode": "hidden",
                     "hideWhenIdle": false,
                     "id": "MediaMini",
-                    "maxWidth": 145,
+                    "maxWidth": 250,
                     "scrollingMode": "hover",
                     "showAlbumArt": false,
-                    "showVisualizer": false,
+                    "showVisualizer": true,
                     "useFixedWidth": false,
                     "visualizerType": "linear"
                 }
@@ -340,12 +340,12 @@
             {
                 "directory": "/home/aidn/Pictures/wallpaper",
                 "name": "HDMI-A-1",
-                "wallpaper": "/home/aidn/Pictures/wallpaper/girl-stars.png"
+                "wallpaper": "/home/aidn/Pictures/wallpaper/bsod.png"
             },
             {
                 "directory": "/home/aidn/Pictures/wallpaper",
                 "name": "DP-1",
-                "wallpaper": "/home/aidn/Pictures/wallpaper/girl-stars.png"
+                "wallpaper": "/home/aidn/Pictures/wallpaper/bsod.png"
             }
         ],
         "overviewEnabled": false,

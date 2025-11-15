@@ -6,6 +6,7 @@
 !/.config/noctalia/
 !/.config/kitty/
 !/.config/fastfetch/
+!/.config/waybar/
 
 # Whitelist specific files
 !/.config/starship.toml
