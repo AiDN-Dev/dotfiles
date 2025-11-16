@@ -11,29 +11,33 @@ window#waybar {
 }
 
 #workspaces button {
-  padding: 0 3px;
+  padding: 0 5px;
   background: transparent;
   color: #CDD6F4;
-  font-size: 9px;
+  font-size: 10px;
   opacity: 0.5;
 }
 
 #workspaces button.active {
-  font-size: 11px;
   opacity: 1.0;
+  font-size: 15px;
 }
 
 #workspaces button.focused {
-  background: #B4BEFE;
-  color: #1E1E2E;
-  font-size: 14px;
   opacity: 1.0;
 }
 
 #workspaces button:hover {
-  background: #313244;
   box-shadow: inherit;
   text-shadow: inherit;
+}
+
+#custom-tray_button {
+  padding: 0 8px;
+  color: #FFF;
+  background-color: transparent;
+  border-radius: 5px;
+  margin: 0;
 }
 
 #mode {
@@ -69,6 +73,13 @@ window#waybar {
   background-color: #FAB387;
 }
 
+#group-sysTray{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
 #tray {
-  background-color: transparent;
+  background-color: #1E1E2E;
+  padding: 0 5px;
+  border-radius: 8px;
 }
