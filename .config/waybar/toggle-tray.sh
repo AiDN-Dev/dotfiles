@@ -1,6 +1,7 @@
 #!/bin/bash
 
 if command -v jq &>/dev/null; then
+
   OUTPUT=$(hyprctl monitors -j | jq -r '.[] | select(.focused == true) | .name')
 else
   OUTPUT=$(hyprctl monitors | awk '/focused: yes/ {print monitor} /^Monitor/ {monitor=$2}')

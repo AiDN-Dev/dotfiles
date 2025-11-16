@@ -2,8 +2,7 @@
   border: none;
   border-radius: 0;
   font-family: "CaskaydiaCove Nerd Font";                                                                     
-  /*font-size: 13px;*/                                                                                          
-  min-height: 0;                                                                                              
+  /*font-size: 13px;*/                                                                                              
 }       
 window#waybar {
  background: transparent;
@@ -21,6 +20,7 @@ window#waybar {
 #workspaces button.active {
   opacity: 1.0;
   font-size: 15px;
+  color: #FAB387;
 }
 
 #workspaces button.focused {
@@ -68,4 +68,13 @@ window#waybar {
 
 #network {
   background-color: #FAB387;
+}
+
+#custom-power {
+  color: #FAB387;
+  background-color: transparent;
+  padding: 0 10px;
+  border-radius: 10px;
+  margin-left: 5px;
+  font-size: 15px
 }

@@ -1,20 +1,28 @@
 // add elements into "modules-" too add them to the waybar
+//
 {
   "layer": "top", // Change this to behind when finished with project 
   "position": "top",
   "fixed-center": true,
   "reload_style_on_change": true,
-  "modules-left": ["hyprland/workspaces"],
+  "modules-left": ["custom/power","hyprland/workspaces"],
   "modules-center": ["hyprland/window"],
   "modules-right": ["custom/tray", "pulseaudio", "clock"],
  
-// Groups
+// Custom modules
 //
   "custom/tray": {
       "format": "", 
       "tooltip": false, 
       "on-click": "bash ~/.config/waybar/toggle-tray.sh"
   },
+  "custom/power": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "~/.config/waybar/power-menu.sh"
+  },
+// Default modules
+//
   "hyprland/workspaces": {
       "format": "{icon}",
       "format-icons": {
