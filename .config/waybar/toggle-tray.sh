@@ -26,6 +26,7 @@ else
   {
     "output": "$OUTPUT",
     "layer": "overlay",
+    "exclusive": false,
     "position": "top",
     "modules-right": [ "tray" ],
     "tray": {
