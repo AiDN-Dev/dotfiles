@@ -32,23 +32,20 @@ window#waybar {
   text-shadow: inherit;
 }
 
-#custom-tray_button {
-  padding: 0 8px;
-  color: #FFF;
-  background-color: transparent;
-  border-radius: 5px;
-  margin: 0;
-}
-
 #mode {
   background: #F38BA8;
   color: #1E1E2E;
   padding: 0 5px;
 }
 
-#clock, #cpu, #memory, #pulseaudio, #network, #tray {
+#clock, #cpu, #memory, #pulseaudio, #network, #custom-tray {
   padding: 0 7px;
   color: #1E1E2E;
+}
+
+#custom-tray {
+  margin-right: 5px;
+  color: #FFF;
 }
 
 #clock {
@@ -71,15 +68,4 @@ window#waybar {
 
 #network {
   background-color: #FAB387;
-}
-
-#group-sysTray{
-  margin-top: 4px;
-  margin-bottom: 4px;
-}
-
-#tray {
-  background-color: #1E1E2E;
-  padding: 0 5px;
-  border-radius: 8px;
 }
