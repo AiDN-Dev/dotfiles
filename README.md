@@ -53,6 +53,7 @@ Packages in use (updated over time):
 * FastFetch - ```yay -S fastfetch```
 * Noctalia-Shell ```yay -S noctalia-shell```
 * Wofi
+* Cliphist + wl-paste (+ dependancies will update with them)
 * Nord (for theming)
 
 
