@@ -114,7 +114,7 @@
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "matugenSchemeType": "scheme-fruit-salad",
-        "predefinedScheme": "Catppuccin",
+        "predefinedScheme": "Nord",
         "schedulingMode": "off",
         "useWallpaperColors": false
     },
@@ -340,12 +340,12 @@
             {
                 "directory": "/home/aidn/Pictures/wallpaper",
                 "name": "HDMI-A-1",
-                "wallpaper": "/home/aidn/Pictures/wallpaper/bsod.png"
+                "wallpaper": "/home/aidn/Pictures/wallpaper/windows-panic.png"
             },
             {
                 "directory": "/home/aidn/Pictures/wallpaper",
                 "name": "DP-1",
-                "wallpaper": "/home/aidn/Pictures/wallpaper/bsod.png"
+                "wallpaper": "/home/aidn/Pictures/wallpaper/windows-panic.png"
             }
         ],
         "overviewEnabled": false,

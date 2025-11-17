@@ -1,21 +1,15 @@
 window#waybar {
   background-color: #1E1E2E;
   border: 1px solid #45475A;
-  border-radius: 10px; /* Parent border-radius */
+  border-radius: 10px;
   font-family: "CaskaydiaCove Nerd Font";
   font-size: 16px;
-  padding: 10px;
-  box-shadow: 0 0 0 5px #1E1E2E;
 }
 
 #custom-lock,
 #custom-restart,
 #custom-shutdown {
-  color: #CDD6F4;
-  padding: 5px 10px;
-  background-color: transparent;
-  border-radius: 8px; /* Slightly smaller border-radius for modules */
-  transition: background-color 0.2s ease-in-out;
+  padding: 10px;
 }
 
 #custom-lock:hover,

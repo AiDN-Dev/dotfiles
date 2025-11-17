@@ -1,0 +1,9 @@
+window#waybar {
+  background-color: transparent;
+}
+
+#custom-dim {
+  background-color: #11111B;
+  padding: 1000px;
+  margin: -1000px
+}
