@@ -1,9 +1,11 @@
+@import "theme.css";
+
 window#waybar {
   background-color: transparent;
 }
 
 #custom-dim {
-  background-color: #11111B;
+  background-color: @nord0;
   padding: 1000px;
   margin: -1000px
 }

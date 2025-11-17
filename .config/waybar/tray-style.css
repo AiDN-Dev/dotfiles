@@ -1,3 +1,5 @@
+@import "theme.css";
+
 * {
   border: none;
   border-radius: 0;
@@ -12,9 +14,9 @@ window#waybar {
 }
 
 #tray {
-  color: #CDD6F4;
-  background-color: #1E1E2E;
-  border: 1px solid #494D64;
+  color: @foreground;
+  background-color: @background;
+  border: 1px solid @nord3;
   border-radius: 10px;
   padding: 5px 10px;
 

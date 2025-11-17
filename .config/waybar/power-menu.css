@@ -1,6 +1,8 @@
+@import "theme.css";
+
 window#waybar {
-  background-color: #1E1E2E;
-  border: 1px solid #45475A;
+  background-color: @background;
+  border: 1px solid @nord3;
   border-radius: 10px;
   font-family: "CaskaydiaCove Nerd Font";
   font-size: 16px;
@@ -15,14 +17,14 @@ window#waybar {
 #custom-lock:hover,
 #custom-restart:hover,
 #custom-shutdown:hover {
-  background-color: #45475A;
+  background-color: @nord3;
   /* Removed border and border-radius from hover state */
 }
 
 #custom-restart {
-  color: #F9E2AF;
+  color: @warning;
 }
 
 #custom-shutdown {
-  color: #F38BA6
+  color: @accent;
 }

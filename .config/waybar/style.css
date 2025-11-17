@@ -1,3 +1,5 @@
+@import "theme.css";
+
 * {                                                                                                             
   border: none;
   border-radius: 0;
@@ -6,13 +8,13 @@
 }       
 window#waybar {
  background: transparent;
- /*color: #CDD6F4;*/
+ /*color: @foreground;*/
 }
 
 #workspaces button {
   padding: 0 5px;
   background: transparent;
-  color: #CDD6F4;
+  color: @foreground;
   font-size: 10px;
   opacity: 0.5;
 }
@@ -20,7 +22,7 @@ window#waybar {
 #workspaces button.active {
   opacity: 1.0;
   font-size: 15px;
-  color: #FAB387;
+  color: @primary;
 }
 
 #workspaces button.focused {
@@ -33,45 +35,45 @@ window#waybar {
 }
 
 #mode {
-  background: #F38BA8;
-  color: #1E1E2E;
+  background: @accent;
+  color: @background;
   padding: 0 5px;
 }
 
 #clock, #cpu, #memory, #pulseaudio, #network, #custom-tray {
   padding: 0 7px;
-  color: #1E1E2E;
+  color: @background;
 }
 
 #custom-tray {
   margin-right: 5px;
-  color: #FFF;
+  color: @foreground;
 }
 
 #clock {
   background-color: transparent;
-  color: #FFF;
+  color: @foreground;
 }
 
 #cpu {
-  background-color: #94E2D5;
+  background-color: @secondary;
 }
 
 #memory {
-  background-color: #A6E3A1;
+  background-color: @success;
 }
 
 #pulseaudio {
   background-color: transparent;
-  color: #FFF
+  color: @foreground
 }
 
 #network {
-  background-color: #FAB387;
+  background-color: @primary;
 }
 
 #custom-power {
-  color: #FAB387;
+  color: @primary;
   background-color: transparent;
   padding: 0 10px;
   border-radius: 10px;
