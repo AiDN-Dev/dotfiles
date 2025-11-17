@@ -37,6 +37,6 @@ else
   }
 EOF
 
-  waybar -c "$TMP_CONFIG_PATH" -s ~/.config/waybar/tray-style.css &
+  waybar -c "$TMP_CONFIG_PATH" -s ~/.config/waybar/css/tray-style.css &
 
 fi

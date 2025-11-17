@@ -6,7 +6,7 @@
   "fixed-center": true,
   "reload_style_on_change": true,
   "modules-left": ["custom/power","hyprland/workspaces"],
-  "modules-center": ["hyprland/window"],
+  "modules-center": ["hyprland/window", "STRING"],
   "modules-right": ["custom/tray", "pulseaudio", "clock"],
  
 // Custom modules
@@ -14,14 +14,12 @@
   "custom/tray": {
       "format": "", 
       "tooltip": false, 
-      "on-click": "bash ~/.config/waybar/toggle-tray.sh"
+      "on-click": "bash ~/.config/waybar/scripts/toggle-tray.sh"
   },
   "custom/power": {
     "format": "",
     "tooltip": false,
-    "on-click": "~/.config/waybar/power-menu.sh"
-  },
-// Default modules
+          "on-click": "~/.config/waybar/scripts/power-menu.sh"  },// Default modules
 //
   "hyprland/workspaces": {
       "format": "{icon}",

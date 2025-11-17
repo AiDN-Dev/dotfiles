@@ -1,4 +1,5 @@
-@import "theme.css";
+@import "css/theme.css";
+
 
 * {                                                                                                             
   border: none;
@@ -43,6 +44,7 @@ window#waybar {
 #clock, #cpu, #memory, #pulseaudio, #network, #custom-tray {
   padding: 0 7px;
   color: @background;
+  font-size: 15px;
 }
 
 #custom-tray {

@@ -44,4 +44,4 @@ EOF
 #Add the kill fucntion to the ecnvironment so it can be called from waybars on on-click
 export -f kill_waybar_powermenu
 
-waybar -c "$POWER_MENU_CONFIG_PATH" -s ~/.config/waybar/power-menu.css
+waybar -c "$POWER_MENU_CONFIG_PATH" -s ~/.config/waybar/css/power-menu.css
