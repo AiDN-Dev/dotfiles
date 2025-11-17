@@ -52,9 +52,13 @@ window#waybar {
   color: @foreground;
 }
 
+#custom-tray:hover {
+  color: @secondary;
+}
+
 #clock {
   background-color: transparent;
-  color: @foreground;
+  color: @primary;
 }
 
 #cpu {
@@ -67,7 +71,11 @@ window#waybar {
 
 #pulseaudio {
   background-color: transparent;
-  color: @foreground
+  color: @foreground;
+}
+
+#pulseaudio:hover{
+  color: @secondary;
 }
 
 #network {
@@ -81,4 +89,13 @@ window#waybar {
   border-radius: 10px;
   margin-left: 5px;
   font-size: 15px
+}
+
+#mpris {
+  color: @foreground;
+  padding: 0 7px;
+}
+
+#mrpis:hover {
+  color: @secondary;
 }

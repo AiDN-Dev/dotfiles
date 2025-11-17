@@ -5,7 +5,7 @@
   "position": "top",
   "fixed-center": true,
   "reload_style_on_change": true,
-  "modules-left": ["custom/power","hyprland/workspaces"],
+  "modules-left": ["custom/power","hyprland/workspaces","mpris"],
   "modules-center": ["hyprland/window", "STRING"],
   "modules-right": ["custom/tray", "pulseaudio", "clock"],
  
@@ -31,6 +31,15 @@
   "hyprland/window": {
     "format": "{}",
     "max-length": 50
+  },
+  "mpris": {
+    "format": " {status_icon} {artist} - {title}",
+    "format-stopped": "",
+    "status-icons": {
+      "default": "",
+      "paused": "▶",
+    },
+    "max-length": 30
   },
   "pulseaudio": {
     "format": "",
