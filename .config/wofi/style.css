@@ -1,0 +1,75 @@
+@define-color nord0 #2E3440;
+@define-color nord1 #3B4252;
+@define-color nord2 #434C5E;                                                                                    
+@define-color nord3 #4C566A; /* foreground for some elements */                                                 
+@define-color nord4 #D8DEE9; /* lighter foreground */                                                           
+@define-color nord5 #E5E9F0;                                                                                    
+@define-color nord6 #ECEFF4;                                                                                    
+@define-color nord7 #8FBCBB; /* primary accent */                                                               
+@define-color nord8 #88C0D0; /* secondary accent */                                                             
+@define-color nord9 #81A1C1;                                                                                    
+@define-color nord10 #5E81AC;                                                                                   
+@define-color nord11 #BF616A; /* accent/error */                                                                
+@define-color nord12 #D08770;                                                                                   
+@define-color nord13 #EBCB8B; /* warning */
+@definene-color nord14 #A3BE8C; /* success */
+@define-color nord15 #B48EAD;
+
+window {
+  font-family: "CaskaydiaCove Nerd Font";
+  font-size: 14px; 
+  background-color: @nord0;
+  color: @nord4;
+  border: 2px solid @nord8;
+  border-radius: 8px;
+}
+
+#input {
+  background-color: @nord1;
+  color: @nord6;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 5px;
+}
+
+#inner-box {
+  margin: 5px;
+}
+
+#outer-box {
+  padding: 10px;
+}
+
+#scroll {
+  margin-top: 5px;
+}
+
+#text {
+  padding: 5px;
+}
+
+#entry {
+  padding: 5px;
+  margin: 2px 0;
+  border-radius: 5px;
+}
+
+#entry:selected {
+  background-color: @nord3;
+  color: @nord6
+}
+
+#entry:selected #text {
+  color: @nord6
+}
+
+#img {
+  margin-right: 10px;
+}
+
+#entry {
+  padding: 5px;
+  margin: 2px 0;
+  border-radius: 5px;
+}
