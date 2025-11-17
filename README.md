@@ -54,6 +54,7 @@ Packages in use (updated over time):
 * Noctalia-Shell ```yay -S noctalia-shell```
 * Wofi
 * Cliphist + wl-paste (+ dependancies will update with them)
+* Wiremix ```yay -S wiremix```
 * Nord (for theming)
 
 
