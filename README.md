@@ -52,6 +52,7 @@ Packages in use (updated over time):
 * Terminal - Kitty + Starship
 * FastFetch - ```yay -S fastfetch```
 * Noctalia-Shell ```yay -S noctalia-shell```
+* Wofi
 * Nord (for theming)
 
 
