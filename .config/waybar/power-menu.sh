@@ -25,7 +25,7 @@ cat >"$POWER_MENU_CONFIG_PATH" <<EOF
     "custom/lock": {
       "format": " Lock", 
       "tooltip": false, 
-      "on-click": "/usr/bin/hyprlock && kill_waybar_powermenu"
+      "on-click": " /usr/bin/hyprlock && pkill -f $POWER_MENU_CONFIG_PATH "
     },
     "custom/restart": {
       "format": " Restart",
