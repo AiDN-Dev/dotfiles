@@ -1,7 +1,7 @@
 // add elements into "modules-" too add them to the waybar
 //
 {
-  "layer": "top", // Change this to behind when finished with project 
+  "layer": "behind", // Change this to behind when finished with project 
   "position": "top",
   "fixed-center": true,
   "reload_style_on_change": true,
