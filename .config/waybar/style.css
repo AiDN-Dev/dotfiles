@@ -5,19 +5,27 @@
   border: none;
   border-radius: 0;
   font-family: "CaskaydiaCove Nerd Font";                                                                     
-  /*font-size: 13px;*/                                                                                              
+  /*font-size: 13px;*/
+  font-weight: bold;
 }       
 window#waybar {
  background: transparent;
  /*color: @foreground;*/
 }
 
+#workspaces {
+  border-radius: 10px;
+  border: 1px solid @secondary;
+}
+
 #workspaces button {
-  padding: 0 0px;
   background: transparent;
   color: @foreground;
   font-size: 10px;
   opacity: 0.5;
+  margin-right: 8px;
+  padding: 2px 2px 2px 2px;
+  margin-left: 4px;
 }
 
 #workspaces button.active {
@@ -60,9 +68,8 @@ window#waybar {
   border-radius: 5px;
   border: 1px solid @secondary;
   padding: 0 3px;
-  margin: 0 5;
+  margin: 0 5px;
   color: @primary;
-  font-size: 11px;
 }
 
 #cpu {

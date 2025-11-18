@@ -2,8 +2,8 @@
 
 #get the notifcation history from dunst
 notifcations=$(dunstctl history | jq -r '.data[0][] | 
-  "<b>" + (.appname.data | sub ("&"; "&amp;")) + ": " + (.summary.data | 
-  sub("&"; "&amp;")) + "</b>\n" + "<small>" + (.body.data | sub("&"; "&amp;")) + "</small>"')
+  "<b>" + (.appname.data | sub ("&";"&amp;")) + ": " + (.summary.data | 
+  sub("&"; "&amp;")) + "</b>\n" + "<small>" + (.body.data | sub("&";"&amp;")) + "</small>"')
 
 #use wofi to display the formatted notifcations
 #--dmenu: reads items from stdin.
