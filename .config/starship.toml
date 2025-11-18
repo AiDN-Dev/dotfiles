@@ -37,12 +37,17 @@ symbol = "󰘬 "
 style = "fg:#2e3440 bg:#88c0d0"
 
 [git_commit]
+style = "fg:#2e3440 bg:#88c0d0"
 
 [git_state]
+style = "fg:#2e3440 bg:#88c0d0"
 
 [git_metrics]
+style = "fg:#2e3440 bg:#88c0d0"
 
 [git_status]
+format = "[$all_status$ahead_behind]($style)"
+style = "fg:#2e3440 bg:#88c0d0"
 
 # LANGUAGES
 # =========
