@@ -1,0 +1,100 @@
+[global]
+  #monitor to appear on
+  monitor = 0
+
+  #font
+  font = CaskaydiaCove Nerd Font 10
+
+  #align text
+  alignment = left
+
+  #shorter long lines
+  ellipsize = middle
+
+  #Colours
+  background = "#2E3440" #nord0
+  foreground = "#D8DEE9" #nord4
+  frame_color = "#8FBCBB" #nord7 #(defualt will be overwritten with urgrency colours)
+  separator_color = "#4C566A" #nord3
+
+  #frame width
+  frame_width = 1
+
+  #transparency
+  transparency = 10
+
+  #corner-radius
+  corner_radius = 8
+
+  #padding
+  padding = 8
+  horizontal_padding = 8
+
+  #gap between messages
+  gap_size = 2
+
+  #offset from screen edge
+  offset = (10, 10)
+
+  #position
+  origin = top-right
+
+  #Icon
+  icon_position = left
+  max_icon_size = 32
+
+  #path to default icons
+  icon_path = /usr/share/icons/papyrus/16x16/actions:/usr/share/icons/papyrus/16x16/apps
+
+  #timeout in seconds
+  timeout = 5
+
+  #show age of message
+  word_wrap = yes
+  show_age_threshold = 60
+
+  #history
+  history_length = 20
+
+  #browser for urls
+  browser = xdg-open
+
+  #follow mouse
+  follow = none
+
+  #sort by urgrency
+  sort = yes
+
+  #indicate when dunst is paused
+  indicate_hidden = yes
+
+  #ignore notifs with a certain hint
+  ignore_dbusclose = true
+
+  #progress bar
+  progress_bar = true
+  progress_bar_height = 3
+
+  #mouse events
+  mouse_left_click = close_current
+  mouse_middle_click = do_action, close_current
+  mouse_right_click = close_all
+
+
+[urgency_low]
+  background = "#2E3440" #nord0
+  foreground = "#D8DEE9" #nord4
+  frame_color = "#8FBCBB" #nord7
+  timeout = 10
+
+[urgency_normal]
+  background = "#2E3440" #nord0
+  foreground = "#D8DEE9" #nord4
+  frame_color = "#5E81AC" #nord10
+  timeout = 10
+
+[urgency_critical]
+  background = "#2E3440" #nord0
+  foreground = "#D8DEE9" #nord 4
+  frame_color = "#BF616A" #nord11
+  timeout = 0

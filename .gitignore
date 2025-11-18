@@ -3,11 +3,11 @@
 
 # whitelist specific directories
 !/.config/hypr/
-!/.config/noctalia/
 !/.config/kitty/
 !/.config/fastfetch/
 !/.config/waybar/
 !/.config/wofi/
+!/.config/dunst/
 
 # Whitelist specific files
 !/.config/starship.toml

@@ -5,24 +5,31 @@
   border: none;
   border-radius: 0;
   font-family: "CaskaydiaCove Nerd Font";                                                                     
-  /*font-size: 13px;*/                                                                                              
+  /*font-size: 13px;*/
+  font-weight: bold;
 }       
 window#waybar {
  background: transparent;
  /*color: @foreground;*/
 }
 
+#workspaces {
+  border-radius: 10px;
+  border: 1px solid @secondary;
+}
+
 #workspaces button {
-  padding: 0 5px;
   background: transparent;
   color: @foreground;
   font-size: 10px;
   opacity: 0.5;
+  margin-right: 8px;
+  padding: 2px 2px 2px 2px;
+  margin-left: 4px;
 }
 
 #workspaces button.active {
   opacity: 1.0;
-  font-size: 15px;
   color: @primary;
 }
 
@@ -56,8 +63,12 @@ window#waybar {
   color: @secondary;
 }
 
-#clock {
-  background-color: transparent;
+#clock { 
+  background-color: @background;
+  border-radius: 5px;
+  border: 1px solid @secondary;
+  padding: 0 3px;
+  margin: 0 5px;
   color: @primary;
 }
 
@@ -98,4 +109,10 @@ window#waybar {
 
 #mrpis:hover {
   color: @secondary;
+}
+
+#custom-dunst {
+  background-color: #81A1C1;
+  color: #2E3440;
+  padding: 0 10px;
 }
