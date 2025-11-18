@@ -43,7 +43,7 @@ style = "fg:#2e3440 bg:#88c0d0"
 style = "fg:#2e3440 bg:#88c0d0"
 
 [git_metrics]
-style = "fg:#2e3440 bg:#88c0d0"
+
 
 [git_status]
 format = "[$all_status$ahead_behind]($style)"

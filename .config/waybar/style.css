@@ -13,7 +13,7 @@ window#waybar {
 }
 
 #workspaces button {
-  padding: 0 5px;
+  padding: 0 0px;
   background: transparent;
   color: @foreground;
   font-size: 10px;
@@ -56,9 +56,14 @@ window#waybar {
   color: @secondary;
 }
 
-#clock {
-  background-color: transparent;
+#clock { 
+  background-color: @background;
+  border-radius: 5px;
+  border: 1px solid @secondary;
+  padding: 0 3px;
+  margin: 0 5;
   color: @primary;
+  font-size: 11px;
 }
 
 #cpu {
@@ -98,4 +103,10 @@ window#waybar {
 
 #mrpis:hover {
   color: @secondary;
+}
+
+#custom-dunst {
+  background-color: #81A1C1;
+  color: #2E3440;
+  padding: 0 10px;
 }

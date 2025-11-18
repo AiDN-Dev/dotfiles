@@ -73,7 +73,7 @@
 
   #progress bar
   progress_bar = true
-  progress_bar_height = 10
+  progress_bar_height = 3
 
   #mouse events
   mouse_left_click = close_current

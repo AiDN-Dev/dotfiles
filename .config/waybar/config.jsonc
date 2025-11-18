@@ -20,7 +20,16 @@
   "custom/power": {
     "format": "",
     "tooltip": false,
-          "on-click": "~/.config/waybar/scripts/power-menu.sh"  },// Default modules
+    "on-click": "~/.config/waybar/scripts/power-menu.sh"  
+  },
+  "custom/dunst": {
+    "format": "{}",
+    "interval": 1,
+    "exec": "bash ~/.config/waybar/scripts/waybar-dunst-history.sh",
+    "on-click": "bash ~/.config/waybar/scripts/notification-center.sh",
+    "on-click-right": "dunstctl close-all"
+  },
+// Default modules
 //
   "hyprland/workspaces": {
       "format": "{icon}",
