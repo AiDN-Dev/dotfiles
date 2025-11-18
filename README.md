@@ -49,6 +49,7 @@ should be easy to inferm from the config files whats in use.
 
 Packages in use (updated over time): 
 * Fonts - CaskaydiaCove Nerd ```yay -S --needed --noconfirm ttf-cascadia-code-nerd```
+* Notifications - Dunst
 * Terminal - Kitty + Starship
 * FastFetch - ```yay -S fastfetch```
 * Noctalia-Shell ```yay -S noctalia-shell```
