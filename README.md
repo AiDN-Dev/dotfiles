@@ -52,7 +52,6 @@ Packages in use (updated over time):
 * Notifications - Dunst
 * Terminal - Kitty + Starship
 * FastFetch - ```yay -S fastfetch```
-* Noctalia-Shell ```yay -S noctalia-shell```
 * Wofi
 * Cliphist + wl-paste (+ dependancies will update with them)
 * Wiremix ```yay -S wiremix```
