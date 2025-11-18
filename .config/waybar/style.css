@@ -22,7 +22,6 @@ window#waybar {
 
 #workspaces button.active {
   opacity: 1.0;
-  font-size: 15px;
   color: @primary;
 }
 
