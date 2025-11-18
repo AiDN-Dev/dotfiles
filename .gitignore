@@ -3,7 +3,6 @@
 
 # whitelist specific directories
 !/.config/hypr/
-!/.config/noctalia/
 !/.config/kitty/
 !/.config/fastfetch/
 !/.config/waybar/
