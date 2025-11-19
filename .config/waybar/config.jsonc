@@ -18,7 +18,7 @@
       "on-click": "bash ~/.config/waybar/scripts/notification-center.sh"
   },
   "custom/power": {
-    "format": "",
+    "format": "",
     "tooltip": false,
     "on-click": "~/.config/waybar/scripts/power-menu.sh"  
   },

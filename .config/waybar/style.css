@@ -64,7 +64,7 @@ window#waybar {
 }
 
 #clock { 
-  background-color: @background;
+  background-color: transparent;
   border-radius: 5px;
   border: 1px solid @secondary;
   padding: 0 3px;
@@ -99,7 +99,8 @@ window#waybar {
   padding: 0 10px;
   border-radius: 10px;
   margin-left: 5px;
-  font-size: 15px
+  margin-right: 10px;
+  font-size: 17px
 }
 
 #mpris {
