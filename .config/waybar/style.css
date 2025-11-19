@@ -55,7 +55,7 @@ window#waybar {
 }
 
 #custom-tray {
-  margin-right: 5px;
+  margin-right: 3px;
   color: @foreground;
 }
 

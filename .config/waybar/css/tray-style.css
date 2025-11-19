@@ -18,8 +18,8 @@ window#waybar {
   background-color: @background;
   border: 1px solid @nord3;
   border-radius: 10px;
-  padding: 5px 10px;
+  padding: 5px 15px;
 
   margin-top: 0;
-  margin-right: 60px;
+  margin-right: 76px;
 }

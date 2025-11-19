@@ -8,14 +8,14 @@
   "margin-top": 5,
   "modules-left": ["custom/power","hyprland/workspaces"],
   "modules-center": ["custom/seperator","hyprland/window","custom/seperator2"],
-  "modules-right": ["pulseaudio", "clock"],
+  "modules-right": ["custom/tray","pulseaudio", "clock"],
  
 // Custom modules
 //
   "custom/tray": {
       "format": "", 
       "tooltip": false, 
-      "on-click": "bash ~/.config/waybar/scripts/notification-center.sh"
+      "on-click": "bash ~/.config/waybar/scripts/toggle-tray.sh"
   },
   "custom/power": {
     "format": "",
