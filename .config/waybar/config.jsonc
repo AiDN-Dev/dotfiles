@@ -43,8 +43,11 @@
       "format": "{icon}",
       "format-icons": {
       "active": "",
-      "default": ""
+      "default": "",
+      "empty": ""
       },
+      "sort-by": true,
+      "on-click": "activate"
   },
   "hyprland/window": {
     "format": "{}",

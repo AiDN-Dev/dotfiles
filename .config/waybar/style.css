@@ -1,18 +1,75 @@
 @import "css/theme.css";
 
-
-* {                                                                                                             
+/* GLOBAL STYLES */
+* {
   border: none;
-  border-radius: 0;
-  font-family: "CaskaydiaCove Nerd Font";                                                                     
+  font-family: "CaskaydiaCove Nerd Font";
   /*font-size: 13px;*/
   font-weight: bold;
-}       
+}
+
 window#waybar {
  background-color: transparent;
  /*color: @foreground;*/
 }
 
+
+
+
+/* On Hover */
+#pulseaudio:hover{
+  color: @secondary;
+}
+
+#workspaces button:hover {
+  box-shadow: inherit;
+  text-shadow: inherit;
+}
+
+#custom-tray:hover {
+  color: @secondary;
+}
+
+#mrpis:hover {
+  color: @secondary;
+}
+
+
+
+/* Custom Modules */
+#custom-tray {
+  margin-right: 3px;
+  color: @foreground;
+}
+
+#custom-power {
+  color: @primary;
+  background-color: transparent;
+  padding: 0 10px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 10px;
+  font-size: 17px
+}
+
+#custom-dunst {
+  background-color: #81A1C1;
+  color: #2E3440;
+  padding: 0 10px;
+}
+
+#custom-seperator {
+  color: @primary;
+}
+
+#custom-seperator2 {
+  color: @primary;
+}
+
+
+
+
+/* Worksapces */
 #workspaces {
   border-radius: 10px;
   border: 1px solid @secondary;
@@ -37,30 +94,20 @@ window#waybar {
   opacity: 1.0;
 }
 
-#workspaces button:hover {
-  box-shadow: inherit;
-  text-shadow: inherit;
-}
 
-#mode {
-  background: @accent;
-  color: @background;
-  padding: 0 5px;
-}
 
+
+/* System Modules */
 #clock, #cpu, #memory, #pulseaudio, #network, #custom-tray {
   padding: 0 7px;
   color: @background;
   font-size: 15px;
 }
 
-#custom-tray {
-  margin-right: 3px;
-  color: @foreground;
-}
-
-#custom-tray:hover {
-  color: @secondary;
+#mode {
+  background: @accent;
+  color: @background;
+  padding: 0 5px;
 }
 
 #clock { 
@@ -85,45 +132,13 @@ window#waybar {
   color: @foreground;
 }
 
-#pulseaudio:hover{
-  color: @secondary;
-}
-
 #network {
   background-color: @primary;
-}
-
-#custom-power {
-  color: @primary;
-  background-color: transparent;
-  padding: 0 10px;
-  border-radius: 10px;
-  margin-left: 5px;
-  margin-right: 10px;
-  font-size: 17px
 }
 
 #mpris {
   color: @foreground;
   padding: 0 7px;
-}
-
-#mrpis:hover {
-  color: @secondary;
-}
-
-#custom-dunst {
-  background-color: #81A1C1;
-  color: #2E3440;
-  padding: 0 10px;
-}
-
-#custom-seperator {
-  color: @primary;
-}
-
-#custom-seperator2 {
-  color: @primary;
 }
 
 #modules-right {
