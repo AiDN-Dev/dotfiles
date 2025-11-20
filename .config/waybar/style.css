@@ -9,7 +9,7 @@
   font-weight: bold;
 }       
 window#waybar {
- background: transparent;
+ background-color: transparent;
  /*color: @foreground;*/
 }
 
@@ -124,4 +124,8 @@ window#waybar {
 
 #custom-seperator2 {
   color: @primary;
+}
+
+#modules-right {
+  padding-left: 25px;
 }

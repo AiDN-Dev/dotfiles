@@ -48,7 +48,7 @@
   },
   "hyprland/window": {
     "format": "{}",
-    "max-length": 50
+    "max-length": 30
   },
   "mpris": {
     "format": " {status_icon} {artist} - {title}",
@@ -72,6 +72,6 @@
       "car": "",
       "default": ["", "", ""]
     },
-    "on-click": "wiremix"
+    "on-click": "kitty -e wiremix"
   }
 }
