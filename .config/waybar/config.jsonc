@@ -40,7 +40,7 @@
 // Default modules
 //
   "hyprland/workspaces": {
-      "format": "{icon}",
+      "format": "{icon} {name}",
       "format-icons": {
       "active": "",
       "default": "",
