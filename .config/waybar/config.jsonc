@@ -7,7 +7,7 @@
   "reload_style_on_change": true,
   "margin-top": 5,
   "margin-bottom": 1,
-  "modules-left": ["custom/power","hyprland/workspaces"],
+  "modules-left": ["custom/power","custom/seperator-right","hyprland/workspaces"],
   "modules-center": ["custom/seperator","hyprland/window","custom/seperator2"],
   "modules-right": ["group/tray-group","custom/seperator-right","pulseaudio","custom/seperator-right","clock"],
 //=================================
@@ -29,7 +29,7 @@
   "custom/seperator-right": {
     "format": "",
     "tooltip": false,
-  },
+  }, 
 //==========================================
 //==========DEFAULT WAYBAR MODULES==========
 //==========================================
@@ -45,7 +45,9 @@
   },
   "hyprland/window": {
     "format": "{}",
-    "max-length": 30
+    "max-length": 40,
+    "icon": true,
+    "icon-size": 15
   },
   "pulseaudio": {
     "format": "{icon}",
