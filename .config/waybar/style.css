@@ -1,21 +1,51 @@
 @import "css/theme.css";
 
-
-* {                                                                                                             
+/* ||=============|| 
+   ||Global styles||
+   ||=============|| */
+*{
   border: none;
   border-radius: 0;
-  font-family: "CaskaydiaCove Nerd Font";                                                                     
-  /*font-size: 13px;*/
+  font-family: "CaskaydiaCove Nerd Font";
   font-weight: bold;
-}       
+}
+
 window#waybar {
- background-color: transparent;
- /*color: @foreground;*/
+  background-color: transparent;
+}
+
+.modules-left, 
+.modules-right {
+  background-color: @nord1;
+  border: 1px solid @nord3;
+  border-radius: 10px;
+  padding: 2px 0px 2px 0px;
+  margin: 0 1px;
+}
+
+.modules-center {
+  background-color: @nord1;
+  border: 1px solid @nord3;
+  border-radius: 10px;
+  padding: 2px 4px 2px 4px;
+  margin: 0 5px;
+}
+
+
+/* ||============|| 
+   ||Modules-Left||
+   ||============|| */
+#custom-power {
+  color: @primary;
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 0 8px;
 }
 
 #workspaces {
-  border-radius: 10px;
-  border: 1px solid @secondary;
+  padding: 0;
+  margin-left: 2px;
 }
 
 #workspaces button {
@@ -23,14 +53,19 @@ window#waybar {
   color: @foreground;
   font-size: 10px;
   opacity: 0.5;
-  margin-right: 8px;
-  padding: 2px 2px 2px 2px;
-  margin-left: 4px;
+  padding: 2px 4px;
+  margin: 0 4px;
+  min-width: 22px;
+  border-radius: 6px;
+  border: 1px solid @primary;
 }
 
 #workspaces button.active {
+  background-color: @primary;
+  color: @background;
   opacity: 1.0;
-  color: @primary;
+  padding: 2px 6px;
+  border: 1px solid @primary;
 }
 
 #workspaces button.focused {
@@ -38,94 +73,58 @@ window#waybar {
 }
 
 #workspaces button:hover {
-  box-shadow: inherit;
-  text-shadow: inherit;
+  opacity: 0.8;
+  background-color: @nord3;
 }
 
-#mode {
-  background: @accent;
-  color: @background;
-  padding: 0 5px;
+#workspaces button.visible {
+  opacity: 0.8;
+  padding: 2px 3px;
 }
 
-#clock, #cpu, #memory, #pulseaudio, #network, #custom-tray {
-  padding: 0 7px;
-  color: @background;
-  font-size: 15px;
-}
-
-#custom-tray {
-  margin-right: 3px;
-  color: @foreground;
-}
-
-#custom-tray:hover {
-  color: @secondary;
-}
-
-#clock { 
-  background-color: transparent;
-  border-radius: 5px;
-  border: 1px solid @secondary;
-  padding: 0 3px;
-  margin: 0 5px;
-  color: @primary;
-}
-
-#cpu {
-  background-color: @secondary;
-}
-
-#memory {
-  background-color: @success;
-}
-
-#pulseaudio {
-  background-color: transparent;
-  color: @foreground;
-}
-
-#pulseaudio:hover{
-  color: @secondary;
-}
-
-#network {
-  background-color: @primary;
-}
-
-#custom-power {
-  color: @primary;
-  background-color: transparent;
-  padding: 0 10px;
-  border-radius: 10px;
-  margin-left: 5px;
-  margin-right: 10px;
-  font-size: 17px
-}
-
-#mpris {
-  color: @foreground;
-  padding: 0 7px;
-}
-
-#mrpis:hover {
-  color: @secondary;
-}
-
-#custom-dunst {
-  background-color: #81A1C1;
-  color: #2E3440;
-  padding: 0 10px;
-}
-
-#custom-seperator {
-  color: @primary;
-}
-
+/* ||==============|| 
+   ||Modules-Center||
+   ||==============|| */
+#custom-seperator,
 #custom-seperator2 {
   color: @primary;
 }
 
-#modules-right {
-  padding-left: 25px;
+/* ||=============|| 
+   ||Modules-Right||
+   ||=============|| */
+#custom-seperator-right {
+  color: @nord3;
+  font-size: 16px;
+  padding: 0 5px;
 }
+#pulseaudio {
+  background-color: transparent;
+  color: @foreground;
+  font-size: 15px;
+  padding: 2px;
+  margin: 0 2px;
+}
+
+#pulseaudio:hover {
+  color: @secondary
+}
+
+#clock {
+  background-color: transparent;
+  color: @primary;
+  font-size: 15px;
+  padding: 0 2px;
+  margin-right: 4px;
+}
+
+#tray {
+  margin-left: 2px;
+}
+
+#custom-tray-toggle {
+  color: @foreground;
+  font-weight: bold;
+  padding: 0 8px;
+}
+

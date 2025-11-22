@@ -1,44 +1,38 @@
-// add elements into "modules-" too add them to the waybar
-//
+//=================================================== 
+//==========CONFIG.JSONC - MY CUSTOM WAYBAR==========
+//===================================================
 {
-  "layer": "top", // Change this to behind when finished with project 
+  "layer": "top",
   "position": "top",
-  "fixed-center": true,
   "reload_style_on_change": true,
   "margin-top": 5,
+  "margin-bottom": 1,
   "modules-left": ["custom/power","hyprland/workspaces"],
   "modules-center": ["custom/seperator","hyprland/window","custom/seperator2"],
-  "modules-right": ["custom/tray","pulseaudio", "clock"],
- 
-// Custom modules
-//
-  "custom/tray": {
-      "format": "", 
-      "tooltip": false, 
-      "on-click": "bash ~/.config/waybar/scripts/toggle-tray.sh"
-  },
-  "custom/power": {
+  "modules-right": ["group/tray-group","custom/seperator-right","pulseaudio","custom/seperator-right","clock"],
+//=================================
+//==========CUSTOM MODULES=========
+//=================================
+   "custom/power": {
     "format": "",
     "tooltip": false,
     "on-click": "~/.config/waybar/scripts/power-menu.sh"  
   },
-  "custom/dunst": {
-    "format": "{}",
-    "interval": 1,
-    "exec": "bash ~/.config/waybar/scripts/waybar-dunst-history.sh",
-    "on-click": "bash ~/.config/waybar/scripts/notification-center.sh",
-    "on-click-right": "dunstctl close-all"
-  },
   "custom/seperator": {
-    "format": "[-  ",
+    "format": " 󰞘 ",
     "tooltip": false
   },
   "custom/seperator2":{
-    "format": " -]",
+    "format": " 󰞗 ",
     "tooltip": false
   },
-// Default modules
-//
+  "custom/seperator-right": {
+    "format": "",
+    "tooltip": false,
+  },
+//==========================================
+//==========DEFAULT WAYBAR MODULES==========
+//==========================================
   "hyprland/workspaces": {
       "format": "{icon} {name}",
       "format-icons": {
@@ -53,28 +47,35 @@
     "format": "{}",
     "max-length": 30
   },
-  "mpris": {
-    "format": " {status_icon} {artist} - {title}",
-    "format-stopped": "",
-    "status-icons": {
-      "default": "",
-      "paused": "▶",
-    },
-    "max-length": 30
-  },
   "pulseaudio": {
-    "format": "",
-    "format-bluetooth": "{volume}% {icon} {format_source}",
-    "format-bluetooth-muted": " {icon} {format_source}",
+    "format": "{icon}",
     "format-icons": {
-      "headphone": "",
-      "hands-free": "",
-      "headset": "",
-      "phone": "",
-      "portable": "",
-      "car": "",
-      "default": ["", "", ""]
+      "default": [" ", " ", " "]
     },
-    "on-click": "kitty -e wiremix"
+    "on-click": "kitty --title 'wiremix-popup' -e wiremix"
+  },
+  "clock": {
+    "format": "{:%I:%M}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+  },
+  "group/tray-group": {
+    "orientation": "horizontal",
+    "drawer": {
+      "transition-duration": 300,
+      "children-class": "tray-items",
+      "transition-left-to-right": false
+    },
+    "modules": [
+      "custom/tray-toggle",
+      "tray"
+    ]
+  },
+  "custom/tray-toggle": {
+    "format": "",
+    "tooltip": false
+  },
+  "tray": {
+    "icon-size": 15,
+    "spacing": 10
   }
 }

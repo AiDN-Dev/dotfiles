@@ -38,7 +38,6 @@ cat >"$POWER_MENU_CONFIG_PATH" <<EOF
       "on-click": "systemctl poweroff"
     }
   }
-}
 EOF
 
 #Add the kill fucntion to the ecnvironment so it can be called from waybars on on-click
