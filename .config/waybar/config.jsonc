@@ -32,10 +32,11 @@
     "tooltip": false,
   },
   "custom/headset": {
-    "format": "󰋋 {}",
+    "format": "{}",
     "exec": "bash ~/.config/waybar/scripts/headset-battery.sh",
     "interval": 30,
-    "return-type": "json"
+    "return-type": "json",
+    "markup": "pango"
   },
 //==========================================
 //==========DEFAULT WAYBAR MODULES==========

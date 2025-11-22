@@ -84,8 +84,21 @@ window#waybar {
 
 #custom-headset {
   font-size: 15px;
+  font-weight: normal;
   padding: 0 5px;
   color: @foreground;
+}
+
+#custom-headset.critical {
+  color: @error;
+}
+
+#custom-headset.warning {
+  color: @warning;
+}
+
+#custom-headset.good {
+  color: @success;
 }
 
 /* ||==============|| 
@@ -128,9 +141,26 @@ window#waybar {
   margin-left: 2px;
 }
 
+.tray-items {
+  background-color: @nord0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border: 1px solid @nord3;
+}
+
+.tray-items #tray {
+  background: transparent;
+  border: none;
+  padding: 4px;
+  margin: 0;
+}
+
 #custom-tray-toggle {
   color: @foreground;
   font-weight: bold;
+  font-size: 15px;
   padding: 0 8px;
 }
 
