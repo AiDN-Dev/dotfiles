@@ -80,7 +80,7 @@
     ]
   },
   "custom/tray-toggle": {
-    "format": "",
+    "format": "󰂚",
     "tooltip": false
   },
   "tray": {
