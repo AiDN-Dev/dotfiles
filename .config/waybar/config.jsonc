@@ -8,7 +8,7 @@
   "fixed-center": true,
   "margin-top": 5,
   "margin-bottom": 1,
-  "modules-left": ["custom/power","custom/seperator-right","hyprland/workspaces"],
+  "modules-left": ["custom/power","custom/seperator-right","hyprland/workspaces", "custom/seperator-right", "custom/headset"],
   "modules-center": ["custom/seperator","hyprland/window","custom/seperator2"],
   "modules-right": ["group/tray-group","custom/seperator-right","pulseaudio","custom/seperator-right","clock"],
 //=================================
@@ -30,7 +30,13 @@
   "custom/seperator-right": {
     "format": "",
     "tooltip": false,
-  }, 
+  },
+  "custom/headset": {
+    "format": "󰋋 {}",
+    "exec": "bash ~/.config/waybar/scripts/headset-battery.sh",
+    "interval": 30,
+    "return-type": "json"
+  },
 //==========================================
 //==========DEFAULT WAYBAR MODULES==========
 //==========================================

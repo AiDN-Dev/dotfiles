@@ -82,6 +82,12 @@ window#waybar {
   padding: 2px 3px;
 }
 
+#custom-headset {
+  font-size: 15px;
+  padding: 0 5px;
+  color: @foreground;
+}
+
 /* ||==============|| 
    ||Modules-Center||
    ||==============|| */
