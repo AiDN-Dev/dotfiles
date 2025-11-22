@@ -5,6 +5,7 @@
   "layer": "top",
   "position": "top",
   "reload_style_on_change": true,
+  "fixed-center": true,
   "margin-top": 5,
   "margin-bottom": 1,
   "modules-left": ["custom/power","custom/seperator-right","hyprland/workspaces"],
