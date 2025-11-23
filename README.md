@@ -53,6 +53,7 @@ Packages in use (updated over time):
 * Terminal - Kitty + Starship
 * FastFetch - ```yay -S fastfetch```
 * Wofi
+* Solaar
 * Cliphist + wl-paste (+ dependancies will update with them)
 * Wiremix ```yay -S wiremix```
 * Nord (for theming)
