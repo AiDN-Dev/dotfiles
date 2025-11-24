@@ -164,3 +164,8 @@ window#waybar {
   padding: 0 8px;
 }
 
+#custom-gaming {
+font-size: 15px;
+color: @foreground;
+}
+

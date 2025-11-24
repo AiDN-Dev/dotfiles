@@ -2,7 +2,7 @@
 //==========CONFIG.JSONC - MY CUSTOM WAYBAR==========
 //===================================================
 {
-  "layer": "top",
+  "layer": "bottom",
   "position": "top",
   "reload_style_on_change": true,
   "fixed-center": true,
@@ -10,7 +10,7 @@
   "margin-bottom": 1,
   "modules-left": ["custom/power","custom/seperator-right","hyprland/workspaces", "custom/seperator-right", "custom/headset"],
   "modules-center": ["custom/seperator","hyprland/window","custom/seperator2"],
-  "modules-right": ["group/tray-group","custom/seperator-right","pulseaudio","custom/seperator-right","clock"],
+  "modules-right": ["group/tray-group","custom/seperator-right","custom/gaming","custom/seperator-right","pulseaudio","custom/seperator-right","clock"],
 //=================================
 //==========CUSTOM MODULES=========
 //=================================
@@ -37,6 +37,11 @@
     "interval": 30,
     "return-type": "json",
     "markup": "pango"
+  },
+  "custom/gaming": {
+    "format": " ",
+    "tooltip": false,
+    "on-click": "bash ~/.config/waybar/scripts/toggle-monitor-lock.sh"
   },
 //==========================================
 //==========DEFAULT WAYBAR MODULES==========
