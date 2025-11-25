@@ -40,7 +40,7 @@
   },
   "custom/gaming": {
     "format": " ",
-    "tooltip": false,
+    "tooltip-format": "Lock cursor to current monitor.",
     "on-click": "bash ~/.config/waybar/scripts/toggle-monitor-lock.sh"
   },
 //==========================================

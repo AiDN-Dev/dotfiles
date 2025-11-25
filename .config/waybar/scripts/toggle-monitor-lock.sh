@@ -10,7 +10,7 @@ MONITOR_INDEX=0
 #--- END CONFIG
 
 #The locked X position
-LOCKED_X=2000
+LOCKED_X=9999
 
 #get the current x position of the monitor using its index
 current_x=$(hyprctl -j monitors | jq --argjson index "$MONITOR_INDEX" '.[$index].x')
