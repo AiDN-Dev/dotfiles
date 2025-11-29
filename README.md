@@ -56,6 +56,6 @@ Packages in use (updated over time):
 * Solaar
 * Cliphist + wl-paste (+ dependancies will update with them)
 * Wiremix ```yay -S wiremix```
-* Nord (for theming)
+* Osmium for theming (https://github.com/IroncladDev/osmium/tree/master)
 
 
