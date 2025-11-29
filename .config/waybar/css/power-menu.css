@@ -2,7 +2,7 @@
 
 window#waybar {
   background-color: @background;
-  border: 1px solid @nord3;
+  border: 1px solid @osmium3;
   border-radius: 10px;
   font-family: "CaskaydiaCove Nerd Font";
   font-size: 16px;
@@ -17,8 +17,9 @@ window#waybar {
 #custom-lock:hover,
 #custom-restart:hover,
 #custom-shutdown:hover {
-  background-color: @nord3;
-  /* Removed border and border-radius from hover state */
+  background-color: @osmium2;
+  border: 1px solid @osmium3;
+  border-radius: 10px;
 }
 
 #custom-restart {
@@ -26,5 +27,5 @@ window#waybar {
 }
 
 #custom-shutdown {
-  color: @accent;
+  color: @error;
 }

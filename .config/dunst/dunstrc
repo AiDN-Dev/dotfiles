@@ -12,10 +12,10 @@
   ellipsize = middle
 
   #Colours
-  background = "#2E3440" #nord0
-  foreground = "#D8DEE9" #nord4
-  frame_color = "#8FBCBB" #nord7 #(defualt will be overwritten with urgrency colours)
-  separator_color = "#4C566A" #nord3
+  background = "#14131E" #osmium root
+  foreground = "#C9DE96" #osimum foreground
+  frame_color = "#9ABFE8" #osmium secondary #(defualt will be overwritten with urgrency colours)
+  separator_color = "#353553" #osmium surface2
 
   #frame width
   frame_width = 1
@@ -82,19 +82,19 @@
 
 
 [urgency_low]
-  background = "#2E3440" #nord0
-  foreground = "#D8DEE9" #nord4
-  frame_color = "#8FBCBB" #nord7
+  background = "#14131E" #osmum root
+  foreground = "#C9DE96" #osmium foreground
+  frame_color = "#9ABFE8" #osmium secondary
   timeout = 10
 
 [urgency_normal]
-  background = "#2E3440" #nord0
-  foreground = "#D8DEE9" #nord4
-  frame_color = "#5E81AC" #nord10
+  background = "#14131E" #osmium root
+  foreground = "#C9DE96" #osmium foreground
+  frame_color = "#B0A8EB" #osmium secondary
   timeout = 10
 
 [urgency_critical]
-  background = "#2E3440" #nord0
-  foreground = "#D8DEE9" #nord 4
-  frame_color = "#BF616A" #nord11
+  background = "#14131E" #osmium root
+  foreground = "#C9DE96" #osmium foreground
+  frame_color = "#E55376" #osmium error
   timeout = 0

@@ -16,16 +16,16 @@ window#waybar {
 
 .modules-left, 
 .modules-right {
-  background-color: @nord1;
-  border: 1px solid @nord3;
+  background-color: @osmium1;
+  border: 1px solid @osmium3;
   border-radius: 10px;
   padding: 2px 0px 2px 0px;
   margin: 0 4px;
 }
 
 .modules-center {
-  background-color: @nord1;
-  border: 1px solid @nord3;
+  background-color: @osmium1;
+  border: 1px solid @osmium3;
   border-radius: 10px;
   padding: 2px 4px 2px 4px;
   margin: 0 5px;
@@ -64,7 +64,7 @@ window#waybar {
   background-color: @primary;
   color: @background;
   opacity: 1.0;
-  padding: 2px 6px;
+  padding: 2px 4px;
   border: 1px solid @primary;
 }
 
@@ -74,7 +74,7 @@ window#waybar {
 
 #workspaces button:hover {
   opacity: 0.8;
-  background-color: @nord3;
+  background-color: @osmium3;
 }
 
 #workspaces button.visible {
@@ -113,7 +113,7 @@ window#waybar {
    ||Modules-Right||
    ||=============|| */
 #custom-seperator-right {
-  color: @nord3;
+  color: @osmium3;
   font-size: 16px;
   padding: 0 5px;
 }
@@ -142,12 +142,12 @@ window#waybar {
 }
 
 .tray-items {
-  background-color: @nord0;
+  background-color: @osmium0;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
-  border: 1px solid @nord3;
+  border: 1px solid @osmium3;
 }
 
 .tray-items #tray {

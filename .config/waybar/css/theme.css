@@ -1,25 +1,37 @@
-@define-color background #2E3440;
-@define-color foreground #D8DEE9;
-@define-color primary #88C0D0;
-@define-color secondary #81A1C1;
-@define-color accent #BF616A;
-@define-color success #A3BE8C;
-@define-color warning #EBCB8B;
-@define-color error #BF616A;
+/* Osmium color scheme based on osmium-colors */
 
-@define-color nord0 #2E3440;
-@define-color nord1 #3B4252;
-@define-color nord2 #434C5E;
-@define-color nord3 #4C566A;
-@define-color nord4 #D8DEE9;
-@define-color nord5 #E5E9F0;
-@define-color nord6 #ECEFF4;
-@define-color nord7 #8FBCBB;
-@define-color nord8 #88C0D0;
-@define-color nord9 #81A1C1;
-@define-color nord10 #5E81AC;
-@define-color nord11 #BF616A;
-@define-color nord12 #D08770;
-@define-color nord13 #EBCB8B;
-@define-color nord14 #A3BE8C;
-@define-color nord15 #B48EAD;
+/* Base Colors */
+@define-color background #14131E;
+@define-color foreground #C9DE96;
+
+/* Named Colors from palette*/
+@define-color primary #E55376;   /* palette 1: Red */
+@define-color secondary #9ABFE8;  /* palette 4: Blue */
+@define-color success #C9DE96;   /* palette 2: Green */
+@define-color warning #E9D39C;   /* palette 3: Yellow */
+@define-color error #E55376;     /* palette 1: Red */
+@define-color accent #B0A8EB;    /* palette 5: Magenta */
+
+/* osmium palette from file for style.css */
+@define-color osmium0 #1F1D2D;
+@define-color osmium1 #1F1D2D; /* background for modules, using palette 0 */
+@define-color osmium2 #353553; /* selection-background */
+@define-color osmium3 #C9DE96; /* border for modules, using palette 2 (green) */
+
+/* Full Palette from osmium-colors */
+@define-color palette0 #1F1D2D;
+@define-color palette1 #E55376;
+@define-color palette2 #C9DE96;
+@define-color palette3 #E9D39C;
+@define-color palette4 #9ABFE8;
+@define-color palette5 #B0A8EB;
+@define-color palette6 #D9A1E8;
+@define-color palette7 #C8D5F1;
+@define-color palette8 #747A9C;
+@define-color palette9 #CA5072;
+@define-color palette10 #B3C48D;
+@define-color palette11 #CDBB91;
+@define-color palette12 #8CAAD1;
+@define-color palette13 #9D97D3;
+@define-color palette14 #C091D0;
+@define-color palette15 #949BB9;

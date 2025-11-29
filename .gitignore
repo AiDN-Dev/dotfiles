@@ -8,6 +8,7 @@
 !/.config/waybar/
 !/.config/wofi/
 !/.config/dunst/
+!/.config/neovim/
 
 # Whitelist specific files
 !/.config/starship.toml

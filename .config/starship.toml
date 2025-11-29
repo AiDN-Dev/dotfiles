@@ -1,18 +1,18 @@
 format = """
-[](#5e81ac)\
-$os$username[@](bg:#5e81ac fg:#2e3440)$hostname\
-[](bg:#81a1c1 fg:#5e81ac)\
+[](#464260)\
+$os$username[@](bg:#464260 fg:#14131E)$hostname\
+[](bg:#B0A8EB fg:#464260)\
 $directory\
-[](bg:#88c0d0 fg:#81a1c1)\
+[](bg:#D9A1E8 fg:#B0A8EB)\
 $git_branch$git_commit$git_state$git_metrics$git_status\
-[](bg:#8fbcbb fg:#88c0d0)\
+[](bg:#EBB17B fg:#D9A1E8)\
 $package$c$cmake$cobol$daml$dart$deno$dotnet$elixir$elm$erlang$fennel$gleam\
 $golang$guix_shell$haskell$haxe$helm$java$julia$kotlin$gradle$lua$nim$nodejs\
 $ocaml$opa$perl$php$pulumi$purescript$python$quarto$raku$rlang$red$ruby$rust\
 $scala$solidity$swift$terraform$typst$vlang$vagrant$zig\
-[](bg:#d9dee9 fg:#8fbcbb)\
+[](bg:#C8D5F1 fg:#EBB17B)\
 $cmd_duration\
-[](fg:#d9dee9)\
+[](fg:#C8D5F1)\
 $line_break\
 $character
 """
@@ -34,20 +34,20 @@ $character
 [git_branch]
 format = "[ $symbol$branch(:$remote_branch) ]($style)"
 symbol = "󰘬 "
-style = "fg:#2e3440 bg:#88c0d0"
+style = "fg:#14131E bg:#D9A1E8"
 
 [git_commit]
-style = "fg:#2e3440 bg:#88c0d0"
+style = "fg:#14131E bg:#D9A1E8"
 
 [git_state]
-style = "fg:#2e3440 bg:#88c0d0"
+style = "fg:#14131E bg:#D9A1E8"
 
 [git_metrics]
 
 
 [git_status]
 format = "[$all_status$ahead_behind]($style)"
-style = "fg:#2e3440 bg:#88c0d0"
+style = "fg:#14131E bg:#D9A1E8"
 
 # LANGUAGES
 # =========
@@ -55,24 +55,24 @@ style = "fg:#2e3440 bg:#88c0d0"
 [lua]
 symbol = '󰢱 '
 format = '[ $symbol($version )]($style)'
-style = "fg:#2e3440 bg:#8fbcbb"
+style = "fg:#14131E bg:#EBB17B"
 
 [python]
 symbol = '󰌠 '
 format = "[ $symbol($version )]($style)"
-style = "fg:#2e3440 bg:#8fbcbb"
+style = "fg:#14131E bg:#EBB17B"
 
 # MISC
 # ====
 
 [hostname]
 ssh_only = false
-style = "fg:#2e3440 bg:#5e81ac"
+style = "fg:#14131E bg:#464260"
 format = "[$ssh_symbol$hostname ]($style)"
 ssh_symbol = " "
 
 [os]
-style = "fg:#2e3440 bg:#5e81ac"
+style = "fg:#14131E bg:#464260"
 disabled = false
 
 [os.symbols]
@@ -84,23 +84,23 @@ disabled = false
 [username]
 show_always = true
 format = '[$user]($style)'
-style_user = "fg:#2e3440 bg:#5e81ac"
+style_user = "fg:#14131E bg:#464260"
 
 [directory]
-style = "fg:#2e3440 bg:#81a1c1"
+style = "fg:#14131E bg:#B0A8EB"
 read_only = " "
 format = "[ 󰉋 $path ]($style)[$read_only]($read_only_style)"
-read_only_style = "fg:#2e3440 bold bg:#81a1c1"
+read_only_style = "fg:#14131E bold bg:#B0A8EB"
 
 [sudo]
 disabled = false
 symbol = " "
-style = "fg:#2e3440 bg:#d9dee9"
+style = "fg:#14131E bg:#C8D5F1"
 format = "[ $symbol]($style)"
 
 [cmd_duration]
 format = "[ 󰔚 $duration ]($style)"
-style = "fg:#2e3440 bg:#d9dee9"
+style = "fg:#14131E bg:#C8D5F1"
 
 [character]
 success_symbol = "[ 󱞩](bold green)"

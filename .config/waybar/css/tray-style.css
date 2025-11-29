@@ -16,7 +16,7 @@ window#waybar {
 #tray {
   color: @foreground;
   background-color: @background;
-  border: 1px solid @nord3;
+  border: 1px solid @osmium3;
   border-radius: 10px;
   padding: 5px 15px;
 
