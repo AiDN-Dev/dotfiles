@@ -114,6 +114,7 @@ window#waybar {
    ||=============|| */
 #custom-seperator-right {
   color: @osmium3;
+  opacity: 0.2;
   font-size: 16px;
   padding: 0 5px;
 }
