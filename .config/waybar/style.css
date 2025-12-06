@@ -16,16 +16,16 @@ window#waybar {
 
 .modules-left, 
 .modules-right {
-  background-color: @osmium1;
-  border: 1px solid @osmium3;
+  background-color: transparent;
+  border: 1px solid @osmium1;
   border-radius: 10px;
   padding: 2px 0px 2px 0px;
   margin: 0 4px;
 }
 
 .modules-center {
-  background-color: @osmium1;
-  border: 1px solid @osmium3;
+  background-color: transparent;
+  border: 1px solid @osmium1;
   border-radius: 10px;
   padding: 2px 4px 2px 4px;
   margin: 0 5px;
@@ -43,14 +43,17 @@ window#waybar {
   padding: 0 8px;
 }
 
+#window {
+  margin-right: 2px;
+}
+
 #workspaces {
   padding: 0;
-  margin-left: 2px;
 }
 
 #workspaces button {
   background: transparent;
-  color: @foreground;
+  color: @error;
   font-size: 10px;
   opacity: 0.5;
   padding: 2px 4px;
@@ -61,8 +64,8 @@ window#waybar {
 }
 
 #workspaces button.active {
-  background-color: @primary;
-  color: @background;
+  background-color: transparent;
+  color: @success;
   opacity: 1.0;
   padding: 2px 4px;
   border: 1px solid @primary;
@@ -168,5 +171,6 @@ window#waybar {
 #custom-gaming {
 font-size: 15px;
 color: @foreground;
+padding: 2px;
 }
 

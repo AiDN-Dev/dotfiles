@@ -8,9 +8,9 @@
   "fixed-center": true,
   "margin-top": 5,
   "margin-bottom": 1,
-  "modules-left": ["custom/power","custom/seperator-right","hyprland/workspaces", "custom/seperator-right", "custom/headset"],
-  "modules-center": ["custom/seperator","hyprland/window","custom/seperator2"],
-  "modules-right": ["group/tray-group","custom/seperator-right","custom/gaming","custom/seperator-right","pulseaudio","custom/seperator-right","clock"],
+  "modules-left": ["custom/power","custom/seperator-right","hyprland/window"],
+  "modules-center": ["custom/seperator","hyprland/workspaces","custom/seperator2"],
+  "modules-right": ["group/tray-group","custom/seperator-right","custom/gaming","custom/seperator-right","custom/headset","custom/seperator-right","pulseaudio","custom/seperator-right","clock"],
 //=================================
 //==========CUSTOM MODULES=========
 //=================================
@@ -57,8 +57,8 @@
       "on-click": "activate"
   },
   "hyprland/window": {
-    "format": "{}",
-    "max-length": 40,
+    "format": "{} ",
+    "max-length": 20,
     "icon": true,
     "icon-size": 15
   },
