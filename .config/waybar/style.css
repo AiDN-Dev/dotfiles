@@ -25,7 +25,6 @@ window#waybar {
 
 .modules-center {
   background-color: transparent;
-  border: 1px solid @osmium1;
   border-radius: 10px;
   padding: 2px 4px 2px 4px;
   margin: 0 5px;
@@ -54,20 +53,20 @@ window#waybar {
 
 #workspaces button {
   background: transparent;
-  color: @error;
-  font-size: 10px;
-  opacity: 0.5;
-  padding: 2px 4px;
-  margin: 0 4px;
-  min-width: 22px;
-  border-radius: 6px;
+  color: @foreground;
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 0.8;
+  padding: 0 5px;
+  margin: 0;
+  border-radius: 0; /* Make it a circle */
+  border-bottom: 1px solid transparent;
 }
 
 #workspaces button.active {
-  background-color: transparent;
-  color: @success;
+  color: @primary;
   opacity: 1.0;
-  padding: 2px 4px;
+  border-bottom: 1px solid @primary;
 }
 
 #workspaces button.focused {
@@ -79,7 +78,7 @@ window#waybar {
   background-color: @osmium3;
 }
 
-#workspaces button.visible {
+#workspaces button.visible {  
   opacity: 0.8;
   padding: 2px 3px;
 }
@@ -173,4 +172,3 @@ font-size: 15px;
 color: @foreground;
 padding: 2px;
 }
-

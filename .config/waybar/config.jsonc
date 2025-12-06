@@ -47,12 +47,7 @@
 //==========DEFAULT WAYBAR MODULES==========
 //==========================================
   "hyprland/workspaces": {
-      "format": "{icon} {name}",
-      "format-icons": {
-      "active": "",
-      "default": "",
-      "empty": ""
-      },
+      "format": "{name}",
       "sort-by": true,
       "on-click": "activate"
   },
