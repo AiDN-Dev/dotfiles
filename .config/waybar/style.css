@@ -45,10 +45,11 @@ window#waybar {
 
 #window {
   margin-right: 2px;
+  color: @success;
 }
 
 #workspaces {
-  padding: 0;
+  color: @primary;
 }
 
 #workspaces button {
@@ -60,7 +61,6 @@ window#waybar {
   margin: 0 4px;
   min-width: 22px;
   border-radius: 6px;
-  border: 1px solid @primary;
 }
 
 #workspaces button.active {
@@ -68,7 +68,6 @@ window#waybar {
   color: @success;
   opacity: 1.0;
   padding: 2px 4px;
-  border: 1px solid @primary;
 }
 
 #workspaces button.focused {
@@ -109,6 +108,7 @@ window#waybar {
    ||==============|| */
 #custom-seperator,
 #custom-seperator2 {
+  padding: 0 5px;
   color: @primary;
 }
 

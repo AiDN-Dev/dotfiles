@@ -9,7 +9,7 @@
   "margin-top": 5,
   "margin-bottom": 1,
   "modules-left": ["custom/power","custom/seperator-right","hyprland/window"],
-  "modules-center": ["custom/seperator","hyprland/workspaces","custom/seperator2"],
+  "modules-center": ["hyprland/workspaces"],
   "modules-right": ["group/tray-group","custom/seperator-right","custom/gaming","custom/seperator-right","custom/headset","custom/seperator-right","pulseaudio","custom/seperator-right","clock"],
 //=================================
 //==========CUSTOM MODULES=========
@@ -20,11 +20,11 @@
     "on-click": "~/.config/waybar/scripts/power-menu.sh"  
   },
   "custom/seperator": {
-    "format": " 󰞘 ",
+    "format": "",
     "tooltip": false
   },
   "custom/seperator2":{
-    "format": " 󰞗 ",
+    "format": "",
     "tooltip": false
   },
   "custom/seperator-right": {
