@@ -147,12 +147,13 @@ window#waybar {
 }
 
 .tray-items {
-  background-color: @osmium0;
+  background-color: transparent;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
-  border: 1px solid @osmium3;
+  border: 1px solid @osmium1;
+  margin: 0 4px;
 }
 
 .tray-items #tray {
