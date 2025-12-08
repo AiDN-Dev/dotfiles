@@ -8,9 +8,9 @@
   "fixed-center": true,
   "margin-top": 5,
   "margin-bottom": 1,
-  "modules-left": ["custom/power","custom/seperator-right","hyprland/window"],
+  "modules-left": ["custom/power"],
   "modules-center": ["hyprland/workspaces"],
-  "modules-right": ["group/tray-group","custom/seperator-right","custom/gaming","custom/seperator-right","custom/headset","custom/seperator-right","pulseaudio","custom/seperator-right","clock"],
+  "modules-right": ["custom/gaming","custom/seperator-right","pulseaudio","custom/seperator-right","clock"],
 //=================================
 //==========CUSTOM MODULES=========
 //=================================

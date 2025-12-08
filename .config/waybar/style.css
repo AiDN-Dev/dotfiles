@@ -41,6 +41,11 @@ window#waybar {
   border-radius: 10px;
   font-size: 18px;
   padding: 0 8px;
+  margin-right: 6px;
+}
+
+#custom-power:hover{
+  color: @secondary;
 }
 
 #window {
@@ -171,7 +176,13 @@ window#waybar {
 }
 
 #custom-gaming {
-font-size: 15px;
-color: @foreground;
-padding: 2px;
+  font-size: 15px;
+  color: @foreground;
+  padding: 2px;
+  margin-left: 5px;
 }
+
+#custom-gaming:hover{
+  color: @secondary;
+}
+
